@@ -454,19 +454,19 @@ var (
 	// FpreRelationLineOfBusiness20 ...
 	FpreRelationLineOfBusiness20 = "201-365-2"
 	// FpreRelationJobs01 ...
-	FpreRelationJobs01 = "y001"
+	FpreRelationJobs01 = "14-392-2"
 	// FpreRelationJobs02 ...
-	FpreRelationJobs02 = "y002"
+	FpreRelationJobs02 = "81-392-2"
 	// FpreRelationJobs03 ...
-	FpreRelationJobs03 = "y003"
+	FpreRelationJobs03 = "142-392-2"
 	// FpreRelationJobs04 ...
-	FpreRelationJobs04 = "y004"
+	FpreRelationJobs04 = "201-392-2"
 	// FpreRelationJobs05 ...
-	FpreRelationJobs05 = "y005"
+	FpreRelationJobs05 = "14-408-2"
 	// FpreRelationJobs06 ...
-	FpreRelationJobs06 = "y006"
+	FpreRelationJobs06 = "81-408-2"
 	// FpreRelationJobs07 ...
-	FpreRelationJobs07 = "y007"
+	FpreRelationJobs07 = "142-408-2"
 	// FpreRelationBusinessAdderess ...
 	FpreRelationBusinessAdderess = "y008"
 	// FpreRelationBusinessCity ...
@@ -819,13 +819,13 @@ func main() {
 		FpreRelationLineOfBusiness18:      "V",
 		FpreRelationLineOfBusiness19:      "V",
 		FpreRelationLineOfBusiness20:      "V",
-		// FpreRelationJobs01:                    CheckBoxChecking(user.RpJobTitleMappingName, "06"),
-		// FpreRelationJobs02:                    CheckBoxChecking(user.RpJobTitleMappingName, "01"),
-		// FpreRelationJobs03:                    CheckBoxChecking(user.RpJobTitleMappingName, "07"),
-		// FpreRelationJobs04:                    CheckBoxChecking(user.RpJobTitleMappingName, "05"),
-		// FpreRelationJobs05:                    CheckBoxChecking(user.RpJobTitleMappingName, "03"),
-		// FpreRelationJobs06:                    CheckBoxChecking(user.RpJobTitleMappingName, "04"),
-		// FpreRelationJobs07:                    CheckBoxChecking(user.RpJobTitleMappingName, "--lainnya--"),
+		FpreRelationJobs01:                "V",
+		FpreRelationJobs02:                "V",
+		FpreRelationJobs03:                "V",
+		FpreRelationJobs04:                "V",
+		FpreRelationJobs05:                "V",
+		FpreRelationJobs06:                "V",
+		FpreRelationJobs07:                "V",
 		// FpreRelationBusinessAdderess:          user.RpCompanyAddress,
 		// FpreRelationBusinessCity:              user.RpCompanyCityMappingName,
 		// FpreRelationBusinessPostalCode:        user.RpCompanySubDistrictPostalCode,
