@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	//unicommon "github.com/unidoc/unidoc/common"
+
 	"github.com/unidoc/unidoc/pdf/creator"
 	pdf "github.com/unidoc/unidoc/pdf/model"
 	"github.com/unidoc/unidoc/pdf/model/fonts"
@@ -323,25 +324,25 @@ var (
 	// FpreSourceOfFound10 ...
 	FpreSourceOfFound10 = "379-443-1"
 	// FpreMainSourceIncome01 ...
-	FpreMainSourceIncome01 = "q009"
+	FpreMainSourceIncome01 = "312-472-1"
 	// FpreMainSourceIncome02 ...
-	FpreMainSourceIncome02 = "r001"
+	FpreMainSourceIncome02 = "379-472-1"
 	// FpreMainSourceIncome03 ...
-	FpreMainSourceIncome03 = "r002"
+	FpreMainSourceIncome03 = "441-472-1"
 	// FpreMainSourceIncome04 ...
-	FpreMainSourceIncome04 = "r003"
+	FpreMainSourceIncome04 = "499-472-1"
 	// FpreMainSourceIncome05 ...
-	FpreMainSourceIncome05 = "r004"
+	FpreMainSourceIncome05 = "312-488-1"
 	// FpreMainSourceIncome06 ...
-	FpreMainSourceIncome06 = "r005"
+	FpreMainSourceIncome06 = "379-488-1"
 	// FpreMainSourceIncome07 ...
-	FpreMainSourceIncome07 = "r006"
+	FpreMainSourceIncome07 = "441-488-1"
 	// FpreMainSourceIncome08 ...
-	FpreMainSourceIncome08 = "r007"
+	FpreMainSourceIncome08 = "499-488-1"
 	// FpreMainSourceIncome09 ...
-	FpreMainSourceIncome09 = "r008"
+	FpreMainSourceIncome09 = "312-504-1"
 	// FpreSalary ...
-	FpreSalary = "z008"
+	FpreSalary = "379-504-1"
 	// FprAditionalSourceIncome01 ...
 	FprAditionalSourceIncome01 = "r009"
 	// FprAditionalSourceIncome02 ...
@@ -752,17 +753,17 @@ func main() {
 		FpreSourceOfFound07:               "V",
 		FpreSourceOfFound08:               "V",
 		FpreSourceOfFound09:               "V",
-		FpreSourceOfFound10:               "Lainnyaa uwu",
-		// FpreMainSourceIncome01:                CheckBoxChecking(user.SourceOfFundMappingName, "01"),
-		// FpreMainSourceIncome02:                CheckBoxChecking(user.SourceOfFundMappingName, "07"),
-		// FpreMainSourceIncome03:                CheckBoxChecking(user.SourceOfFundMappingName, "05"),
-		// FpreMainSourceIncome04:                CheckBoxChecking(user.SourceOfFundMappingName, "03"),
-		// FpreMainSourceIncome05:                CheckBoxChecking(user.SourceOfFundMappingName, "04"),
-		// FpreMainSourceIncome06:                CheckBoxChecking(user.SourceOfFundMappingName, "02"),
-		// FpreMainSourceIncome07:                CheckBoxChecking(user.SourceOfFundMappingName, "06"),
-		// FpreMainSourceIncome08:                CheckBoxChecking(user.SourceOfFundMappingName, "08"),
-		// FpreMainSourceIncome09:                CheckBoxChecking(user.SourceOfFundMappingName, "--lainnya--"),
-		// FpreSalary:                            number.FormatCurrency(user.PrimaryIncomeMaxValue, "IDR", ".", ",", 2),
+		FpreSourceOfFound10:               "Lainnyaa",
+		FpreMainSourceIncome01:            "V",
+		FpreMainSourceIncome02:            "V",
+		FpreMainSourceIncome03:            "V",
+		FpreMainSourceIncome04:            "V",
+		FpreMainSourceIncome05:            "V",
+		FpreMainSourceIncome06:            "V",
+		FpreMainSourceIncome07:            "V",
+		FpreMainSourceIncome08:            "V",
+		FpreMainSourceIncome09:            "V",
+		FpreSalary:                        "10000",
 		// FprAditionalSourceIncome01:            "",
 		// FprAditionalSourceIncome02:            "",
 		// FprAditionalSourceIncome03:            "",
