@@ -313,15 +313,15 @@ var (
 	// FpreSourceOfFound05 ...
 	FpreSourceOfFound05 = "311-426-1" //start input coordinat shob
 	// FpreSourceOfFound06 ...
-	FpreSourceOfFound06 = "q004"
+	FpreSourceOfFound06 = "379-426-1"
 	// FpreSourceOfFound07 ...
-	FpreSourceOfFound07 = "q005"
+	FpreSourceOfFound07 = "440-426-1"
 	// FpreSourceOfFound08 ...
-	FpreSourceOfFound08 = "q006"
+	FpreSourceOfFound08 = "499-426-1"
 	// FpreSourceOfFound09 ...
-	FpreSourceOfFound09 = "q007"
+	FpreSourceOfFound09 = "311-443-1"
 	// FpreSourceOfFound10 ...
-	FpreSourceOfFound10 = "q008"
+	FpreSourceOfFound10 = "379-443-1"
 	// FpreMainSourceIncome01 ...
 	FpreMainSourceIncome01 = "q009"
 	// FpreMainSourceIncome02 ...
@@ -748,11 +748,11 @@ func main() {
 		FpreSourceOfFound03:               "V",
 		FpreSourceOfFound04:               "V",
 		FpreSourceOfFound05:               "V",
-		// FpreSourceOfFound06:                   CheckBoxChecking(user.SourceOfFundMappingName, "02"),
-		// FpreSourceOfFound07:                   CheckBoxChecking(user.SourceOfFundMappingName, "06"),
-		// FpreSourceOfFound08:                   CheckBoxChecking(user.SourceOfFundMappingName, "08"),
-		// FpreSourceOfFound09:                   CheckBoxChecking(user.SourceOfFundMappingName, "--lainnya--"),
-		// FpreSourceOfFound10:                   "",
+		FpreSourceOfFound06:               "V",
+		FpreSourceOfFound07:               "V",
+		FpreSourceOfFound08:               "V",
+		FpreSourceOfFound09:               "V",
+		FpreSourceOfFound10:               "Lainnyaa uwu",
 		// FpreMainSourceIncome01:                CheckBoxChecking(user.SourceOfFundMappingName, "01"),
 		// FpreMainSourceIncome02:                CheckBoxChecking(user.SourceOfFundMappingName, "07"),
 		// FpreMainSourceIncome03:                CheckBoxChecking(user.SourceOfFundMappingName, "05"),
