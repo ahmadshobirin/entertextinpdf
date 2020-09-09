@@ -344,23 +344,23 @@ var (
 	// FpreSalary ...
 	FpreSalary = "379-504-1"
 	// FprAditionalSourceIncome01 ...
-	FprAditionalSourceIncome01 = "r009"
+	FprAditionalSourceIncome01 = "312-558-1"
 	// FprAditionalSourceIncome02 ...
-	FprAditionalSourceIncome02 = "s001"
+	FprAditionalSourceIncome02 = "379-558-1"
 	// FprAditionalSourceIncome03 ...
-	FprAditionalSourceIncome03 = "s002"
+	FprAditionalSourceIncome03 = "441-558-1"
 	// FprAditionalSourceIncome04 ...
-	FprAditionalSourceIncome04 = "s003"
+	FprAditionalSourceIncome04 = "499-558-1"
 	// FprAditionalSourceIncome05 ...
-	FprAditionalSourceIncome05 = "s004"
+	FprAditionalSourceIncome05 = "312-573-1"
 	// FprAditionalSourceIncome06 ...
-	FprAditionalSourceIncome06 = "s005"
+	FprAditionalSourceIncome06 = "379-573-1"
 	// FprAditionalSourceIncome07 ...
-	FprAditionalSourceIncome07 = "s006"
+	FprAditionalSourceIncome07 = "441-573-1"
 	// FprAditionalSourceIncome08 ...
-	FprAditionalSourceIncome08 = "s007"
+	FprAditionalSourceIncome08 = "499-573-1"
 	// FprAditionalSourceIncome09 ...
-	FprAditionalSourceIncome09 = "s008"
+	FprAditionalSourceIncome09 = "312-590-1"
 	// FpreAditionalIncome ...
 	FpreAditionalIncome = "s009"
 	// FpreMallingAddress01 ...
@@ -764,15 +764,15 @@ func main() {
 		FpreMainSourceIncome08:            "V",
 		FpreMainSourceIncome09:            "V",
 		FpreSalary:                        "10000",
-		// FprAditionalSourceIncome01:            "",
-		// FprAditionalSourceIncome02:            "",
-		// FprAditionalSourceIncome03:            "",
-		// FprAditionalSourceIncome04:            "",
-		// FprAditionalSourceIncome05:            "",
-		// FprAditionalSourceIncome06:            "",
-		// FprAditionalSourceIncome07:            "",
-		// FprAditionalSourceIncome08:            "",
-		// FprAditionalSourceIncome09:            "",
+		FprAditionalSourceIncome01:        "V",
+		FprAditionalSourceIncome02:        "V",
+		FprAditionalSourceIncome03:        "V",
+		FprAditionalSourceIncome04:        "V",
+		FprAditionalSourceIncome05:        "V",
+		FprAditionalSourceIncome06:        "V",
+		FprAditionalSourceIncome07:        "V",
+		FprAditionalSourceIncome08:        "V",
+		FprAditionalSourceIncome09:        "V",
 		// FpreAditionalIncome:                   "",
 		// FpreMallingAddress01:                  CheckBoxChecking(strconv.Itoa(user.MailingAddressType), "1"),
 		// FpreMallingAddress02:                  CheckBoxChecking(strconv.Itoa(user.MailingAddressType), "3"),
