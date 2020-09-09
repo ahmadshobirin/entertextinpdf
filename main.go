@@ -378,37 +378,37 @@ var (
 	// FpreRelationAccountNumber ...
 	FpreRelationAccountNumber = "116-110-2"
 	// FpreRelationName ...
-	FpreRelationName = "t006"
+	FpreRelationName = "13-165-2"
 	// FpreRelationOccupation01 ...
-	FpreRelationOccupation01 = "t007"
+	FpreRelationOccupation01 = "14-190-2"
 	// FpreRelationOccupation02 ...
-	FpreRelationOccupation02 = "t008"
+	FpreRelationOccupation02 = "84-190-2"
 	// FpreRelationOccupation03 ...
-	FpreRelationOccupation03 = "t009"
+	FpreRelationOccupation03 = "169-190-2"
 	// FpreRelationOccupation04 ...
-	FpreRelationOccupation04 = "u001"
+	FpreRelationOccupation04 = "14-205-2"
 	// FpreRelationOccupation05 ...
-	FpreRelationOccupation05 = "u002"
+	FpreRelationOccupation05 = "84-205-2"
 	// FpreRelationOccupation06 ...
-	FpreRelationOccupation06 = "u003"
+	FpreRelationOccupation06 = "169-205-2"
 	// FpreRelationOccupation07 ...
-	FpreRelationOccupation07 = "u004"
+	FpreRelationOccupation07 = "14-223-2"
 	// FpreRelationOccupation08 ...
-	FpreRelationOccupation08 = "u005"
+	FpreRelationOccupation08 = "84-223-2"
 	// FpreRelationOccupation09 ...
-	FpreRelationOccupation09 = "u006"
+	FpreRelationOccupation09 = "169-224-2"
 	// FpreRelationOccupation10 ...
-	FpreRelationOccupation10 = "u007"
+	FpreRelationOccupation10 = "14-239-2"
 	// FpreRelationOccupation11 ...
-	FpreRelationOccupation11 = "u008"
+	FpreRelationOccupation11 = "84-239-2"
 	// FpreRelationOccupation12 ...
-	FpreRelationOccupation12 = "u009"
+	FpreRelationOccupation12 = "169-241-2"
 	// FpreRelationOccupation13 ...
-	FpreRelationOccupation13 = "v001"
+	FpreRelationOccupation13 = "205-241-2"
 	// FpreRelationOccupation14 ...
-	FpreRelationOccupation14 = "z007"
+	FpreRelationOccupation14 = "235-228-2"
 	// FpreRelationBusinessName ...
-	FpreRelationBusinessName = "v002"
+	FpreRelationBusinessName = "114-261-2"
 	// FpreRelationPeriodeServiceYear ...
 	FpreRelationPeriodeServiceYear = "v003"
 	// FpreRelationPeriodeServiceMonth ...
@@ -781,22 +781,22 @@ func main() {
 		FpreRelationBankName:              "XYZ",
 		FpreRelationBranch:                "AWEF",
 		FpreRelationAccountNumber:         "08080811",
-		// FpreRelationName:                      user.SpouseName,
-		// FpreRelationOccupation01:              CheckBoxChecking(user.RpOccupationMappingName, "01"),
-		// FpreRelationOccupation02:              CheckBoxChecking(user.RpOccupationMappingName, "03"),
-		// FpreRelationOccupation03:              CheckBoxChecking(user.RpOccupationMappingName, "09"),
-		// FpreRelationOccupation04:              CheckBoxChecking(user.RpOccupationMappingName, "10"),
-		// FpreRelationOccupation05:              CheckBoxChecking(user.RpOccupationMappingName, "04"),
-		// FpreRelationOccupation06:              CheckBoxChecking(user.RpOccupationMappingName, "08"),
-		// FpreRelationOccupation07:              CheckBoxChecking(user.RpOccupationMappingName, "07"),
-		// FpreRelationOccupation08:              CheckBoxChecking(user.RpOccupationMappingName, "11"),
-		// FpreRelationOccupation09:              CheckBoxChecking(user.RpOccupationMappingName, "05"),
-		// FpreRelationOccupation10:              CheckBoxChecking(user.RpOccupationMappingName, "06"),
-		// FpreRelationOccupation11:              CheckBoxChecking(user.RpOccupationMappingName, "02"),
-		// FpreRelationOccupation12:              CheckBoxChecking(user.RpOccupationMappingName, "--lainnya--"),
-		// FpreRelationOccupation13:              user.RpOccupationFreeText,
-		// FpreRelationOccupation14:              user.RpGovernmentEmploymentLevelName.ID,
-		// FpreRelationBusinessName:              user.RpCompanyName,
+		FpreRelationName:                  "MASON GREENWOOD",
+		FpreRelationOccupation01:          "V",
+		FpreRelationOccupation02:          "V",
+		FpreRelationOccupation03:          "V",
+		FpreRelationOccupation04:          "V",
+		FpreRelationOccupation05:          "V",
+		FpreRelationOccupation06:          "V",
+		FpreRelationOccupation07:          "V",
+		FpreRelationOccupation08:          "V",
+		FpreRelationOccupation09:          "V",
+		FpreRelationOccupation10:          "V",
+		FpreRelationOccupation11:          "V",
+		FpreRelationOccupation12:          "V",
+		FpreRelationOccupation13:          "FREE TEXT",
+		FpreRelationOccupation14:          "Employee",
+		FpreRelationBusinessName:          "TEST",
 		// FpreRelationPeriodeServiceYear:        strconv.Itoa(rpJobTitleStartAtYear),
 		// FpreRelationPeriodeServiceMonth:       strconv.Itoa(rpJobTitleStartAtMonth),
 		// FpreRelationLineOfBusiness01:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "05"),
