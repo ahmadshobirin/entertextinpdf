@@ -370,13 +370,13 @@ var (
 	// FpreMallingAddress03 ...
 	FpreMallingAddress03 = "516-660-1"
 	// FpreRelationAccountName ...
-	FpreRelationAccountName = "t002"
+	FpreRelationAccountName = "13-70-2"
 	// FpreRelationBankName ...
-	FpreRelationBankName = "t003"
+	FpreRelationBankName = "96-82-2"
 	// FpreRelationBranch ...
-	FpreRelationBranch = "t004"
+	FpreRelationBranch = "66-96-2"
 	// FpreRelationAccountNumber ...
-	FpreRelationAccountNumber = "t005"
+	FpreRelationAccountNumber = "116-110-2"
 	// FpreRelationName ...
 	FpreRelationName = "t006"
 	// FpreRelationOccupation01 ...
@@ -777,10 +777,10 @@ func main() {
 		FpreMallingAddress01:              "V",
 		FpreMallingAddress02:              "V",
 		FpreMallingAddress03:              "V",
-		// FpreRelationAccountName:               user.BaName,
-		// FpreRelationBankName:                  user.BankName,
-		// FpreRelationBranch:                    "",
-		// FpreRelationAccountNumber:             user.BaNumber,
+		FpreRelationAccountName:           "SROBUWU",
+		FpreRelationBankName:              "XYZ",
+		FpreRelationBranch:                "AWEF",
+		FpreRelationAccountNumber:         "08080811",
 		// FpreRelationName:                      user.SpouseName,
 		// FpreRelationOccupation01:              CheckBoxChecking(user.RpOccupationMappingName, "01"),
 		// FpreRelationOccupation02:              CheckBoxChecking(user.RpOccupationMappingName, "03"),
