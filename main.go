@@ -468,19 +468,19 @@ var (
 	// FpreRelationJobs07 ...
 	FpreRelationJobs07 = "142-408-2"
 	// FpreRelationBusinessAdderess ...
-	FpreRelationBusinessAdderess = "y008"
+	FpreRelationBusinessAdderess = "15-435-2"
 	// FpreRelationBusinessCity ...
-	FpreRelationBusinessCity = "y009"
+	FpreRelationBusinessCity = "76-454-2"
 	// FpreRelationBusinessPostalCode ...
-	FpreRelationBusinessPostalCode = "z001"
+	FpreRelationBusinessPostalCode = "233-454-2"
 	// FpreRelationBusinessProvince ...
-	FpreRelationBusinessProvince = "z002"
+	FpreRelationBusinessProvince = "78-471-2"
 	// FpreRelationBusinessPhone ...
-	FpreRelationBusinessPhone = "z003"
+	FpreRelationBusinessPhone = "94-486-2"
 	// FpreRelationAmanualGross ...
-	FpreRelationAmanualGross = "z004"
+	FpreRelationAmanualGross = "24-518-2"
 	// FpreRelationAditionalIncome ...
-	FpreRelationAditionalIncome = "z005"
+	FpreRelationAditionalIncome = "24-543-2"
 	//FpreAditionalInformasi01Yes ...
 	FpreAditionalInformasi01Yes = "a111"
 	//FpreAditionalInformasi01No ...
@@ -826,13 +826,13 @@ func main() {
 		FpreRelationJobs05:                "V",
 		FpreRelationJobs06:                "V",
 		FpreRelationJobs07:                "V",
-		// FpreRelationBusinessAdderess:          user.RpCompanyAddress,
-		// FpreRelationBusinessCity:              user.RpCompanyCityMappingName,
-		// FpreRelationBusinessPostalCode:        user.RpCompanySubDistrictPostalCode,
-		// FpreRelationBusinessProvince:          user.RpCompanySubDistrictName,
-		// FpreRelationBusinessPhone:             user.RpCompanyPhone,
-		// FpreRelationAmanualGross:              number.FormatCurrency(user.RpPrimaryIncomeMaxValue, "IDR", ".", ",", 2),
-		// FpreRelationAditionalIncome:           "",
+		FpreRelationBusinessAdderess:      "JL Menuju Bahagia",
+		FpreRelationBusinessCity:          "Subay",
+		FpreRelationBusinessPostalCode:    "604",
+		FpreRelationBusinessProvince:      "Jawa Tim",
+		FpreRelationBusinessPhone:         "phone",
+		FpreRelationAmanualGross:          "1.450.000,00",
+		FpreRelationAditionalIncome:       "1.850.000,00",
 		// FpreAditionalInformasi01Yes:           CheckBoxChekingBool(true, user.HasRelationToFinancialInstitution),
 		// FpreAditionalInformasi01No:            CheckBoxChekingBool(false, user.HasRelationToFinancialInstitution),
 		// FpreAditionalInformasi01FreeText:      TmClientAddInfoRelationToFinancialInstitutionDetail(user.HasRelationToFinancialInstitution, user.RelationToFinancialInstitutionDetails, user.LineOfBusinessMappingName, user.RpLineOfBusinessMappingName, user.CompanyName, user.RpCompanyName),
