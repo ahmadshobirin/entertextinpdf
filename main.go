@@ -410,49 +410,49 @@ var (
 	// FpreRelationBusinessName ...
 	FpreRelationBusinessName = "114-261-2"
 	// FpreRelationPeriodeServiceYear ...
-	FpreRelationPeriodeServiceYear = "v003"
+	FpreRelationPeriodeServiceYear = "142-276-2"
 	// FpreRelationPeriodeServiceMonth ...
-	FpreRelationPeriodeServiceMonth = "v004"
+	FpreRelationPeriodeServiceMonth = "220-276-2"
 	// FpreRelationLineOfBusiness01 ...
-	FpreRelationLineOfBusiness01 = "v008"
+	FpreRelationLineOfBusiness01 = "13-302-2"
 	// FpreRelationLineOfBusiness02 ...
-	FpreRelationLineOfBusiness02 = "v009"
+	FpreRelationLineOfBusiness02 = "70-302-2"
 	// FpreRelationLineOfBusiness03 ...
-	FpreRelationLineOfBusiness03 = "w001"
+	FpreRelationLineOfBusiness03 = "123-302-2"
 	// FpreRelationLineOfBusiness04 ...
-	FpreRelationLineOfBusiness04 = "w002"
+	FpreRelationLineOfBusiness04 = "201-302-2"
 	// FpreRelationLineOfBusiness05 ...
-	FpreRelationLineOfBusiness05 = "w003"
+	FpreRelationLineOfBusiness05 = "13-317-2"
 	// FpreRelationLineOfBusiness06 ...
-	FpreRelationLineOfBusiness06 = "w004"
+	FpreRelationLineOfBusiness06 = "70-317-2"
 	// FpreRelationLineOfBusiness07 ...
-	FpreRelationLineOfBusiness07 = "w005"
+	FpreRelationLineOfBusiness07 = "123-317-2"
 	// FpreRelationLineOfBusiness08 ...
-	FpreRelationLineOfBusiness08 = "w006"
+	FpreRelationLineOfBusiness08 = "201-317-2"
 	// FpreRelationLineOfBusiness09 ...
-	FpreRelationLineOfBusiness09 = "w007"
+	FpreRelationLineOfBusiness09 = "13-332-2"
 	// FpreRelationLineOfBusiness10 ...
-	FpreRelationLineOfBusiness10 = "w008"
+	FpreRelationLineOfBusiness10 = "70-332-2"
 	// FpreRelationLineOfBusiness11 ...
-	FpreRelationLineOfBusiness11 = "w009"
+	FpreRelationLineOfBusiness11 = "123-332-2"
 	// FpreRelationLineOfBusiness12 ...
-	FpreRelationLineOfBusiness12 = "x001"
+	FpreRelationLineOfBusiness12 = "201-332-2"
 	// FpreRelationLineOfBusiness13 ...
-	FpreRelationLineOfBusiness13 = "x002"
+	FpreRelationLineOfBusiness13 = "13-349-2"
 	// FpreRelationLineOfBusiness14 ...
-	FpreRelationLineOfBusiness14 = "x003"
+	FpreRelationLineOfBusiness14 = "70-349-2"
 	// FpreRelationLineOfBusiness15 ...
-	FpreRelationLineOfBusiness15 = "x004"
+	FpreRelationLineOfBusiness15 = "123-349-2"
 	// FpreRelationLineOfBusiness16 ...
-	FpreRelationLineOfBusiness16 = "x005"
+	FpreRelationLineOfBusiness16 = "201-349-2"
 	// FpreRelationLineOfBusiness17 ...
-	FpreRelationLineOfBusiness17 = "x006"
+	FpreRelationLineOfBusiness17 = "13-364-2"
 	// FpreRelationLineOfBusiness18 ...
-	FpreRelationLineOfBusiness18 = "x007"
+	FpreRelationLineOfBusiness18 = "70-365-2"
 	// FpreRelationLineOfBusiness19 ...
-	FpreRelationLineOfBusiness19 = "x008"
+	FpreRelationLineOfBusiness19 = "123-365-2"
 	// FpreRelationLineOfBusiness20 ...
-	FpreRelationLineOfBusiness20 = "x009"
+	FpreRelationLineOfBusiness20 = "201-365-2"
 	// FpreRelationJobs01 ...
 	FpreRelationJobs01 = "y001"
 	// FpreRelationJobs02 ...
@@ -797,28 +797,28 @@ func main() {
 		FpreRelationOccupation13:          "FREE TEXT",
 		FpreRelationOccupation14:          "Employee",
 		FpreRelationBusinessName:          "TEST",
-		// FpreRelationPeriodeServiceYear:        strconv.Itoa(rpJobTitleStartAtYear),
-		// FpreRelationPeriodeServiceMonth:       strconv.Itoa(rpJobTitleStartAtMonth),
-		// FpreRelationLineOfBusiness01:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "05"),
-		// FpreRelationLineOfBusiness02:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "37"),
-		// FpreRelationLineOfBusiness03:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "16"),
-		// FpreRelationLineOfBusiness04:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "10"),
-		// FpreRelationLineOfBusiness05:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "24"),
-		// FpreRelationLineOfBusiness06:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "15"),
-		// FpreRelationLineOfBusiness07:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "08"),
-		// FpreRelationLineOfBusiness08:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "09"),
-		// FpreRelationLineOfBusiness09:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "07"),
-		// FpreRelationLineOfBusiness10:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "00"),
-		// FpreRelationLineOfBusiness11:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "06"),
-		// FpreRelationLineOfBusiness12:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "34"),
-		// FpreRelationLineOfBusiness13:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "26"),
-		// FpreRelationLineOfBusiness14:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "14"),
-		// FpreRelationLineOfBusiness15:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "08"),
-		// FpreRelationLineOfBusiness16:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "04"),
-		// FpreRelationLineOfBusiness17:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "40"),
-		// FpreRelationLineOfBusiness18:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "28"),
-		// FpreRelationLineOfBusiness19:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "03"),
-		// FpreRelationLineOfBusiness20:          CheckBoxChecking(user.RpLineOfBusinessMappingName, "--lainnya--"),
+		FpreRelationPeriodeServiceYear:    "2020",
+		FpreRelationPeriodeServiceMonth:   "08",
+		FpreRelationLineOfBusiness01:      "V",
+		FpreRelationLineOfBusiness02:      "V",
+		FpreRelationLineOfBusiness03:      "V",
+		FpreRelationLineOfBusiness04:      "V",
+		FpreRelationLineOfBusiness05:      "V",
+		FpreRelationLineOfBusiness06:      "V",
+		FpreRelationLineOfBusiness07:      "V",
+		FpreRelationLineOfBusiness08:      "V",
+		FpreRelationLineOfBusiness09:      "V",
+		FpreRelationLineOfBusiness10:      "V",
+		FpreRelationLineOfBusiness11:      "V",
+		FpreRelationLineOfBusiness12:      "V",
+		FpreRelationLineOfBusiness13:      "V",
+		FpreRelationLineOfBusiness14:      "V",
+		FpreRelationLineOfBusiness15:      "V",
+		FpreRelationLineOfBusiness16:      "V",
+		FpreRelationLineOfBusiness17:      "V",
+		FpreRelationLineOfBusiness18:      "V",
+		FpreRelationLineOfBusiness19:      "V",
+		FpreRelationLineOfBusiness20:      "V",
 		// FpreRelationJobs01:                    CheckBoxChecking(user.RpJobTitleMappingName, "06"),
 		// FpreRelationJobs02:                    CheckBoxChecking(user.RpJobTitleMappingName, "01"),
 		// FpreRelationJobs03:                    CheckBoxChecking(user.RpJobTitleMappingName, "07"),
