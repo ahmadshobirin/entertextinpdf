@@ -514,19 +514,19 @@ var (
 	// FpreAditionalInformasi04accountNumber ...
 	FpreAditionalInformasi04accountNumber = "94-778-2"
 	// FpreAditionalInformasi05Yes ...
-	FpreAditionalInformasi05Yes = "b118"
+	FpreAditionalInformasi05Yes = "531-52-2"
 	//FpreAditionalInformasi05No ...
-	FpreAditionalInformasi05No = "b119"
+	FpreAditionalInformasi05No = "557-52-2"
 	// FpreAditionalInformasi05CompanyName ...
-	FpreAditionalInformasi05CompanyName = "c111"
+	FpreAditionalInformasi05CompanyName = "408-80-2"
 	// FpreAditionalInformasi06Yes ...
-	FpreAditionalInformasi06Yes = "c112"
+	FpreAditionalInformasi06Yes = "531-92-2"
 	//FpreAditionalInformasi06No ...
-	FpreAditionalInformasi06No = "c113"
+	FpreAditionalInformasi06No = "557-92-2"
 	// FpreAditionalInformasi06CompanyName ...
-	FpreAditionalInformasi06CompanyName = "c114"
+	FpreAditionalInformasi06CompanyName = "408-120-2"
 	// FpreAditionalInformasi06Position ...
-	FpreAditionalInformasi06Position = "c115"
+	FpreAditionalInformasi06Position = "380-130-2"
 	// FpreAditionalInformasi07Yes ...
 	FpreAditionalInformasi07Yes = "c116"
 	//FpreAditionalInformasi07No ...
@@ -849,13 +849,13 @@ func main() {
 		FpreAditionalInformasi04Name:          "name",
 		FpreAditionalInformasi04Hubungan:      "hub",
 		FpreAditionalInformasi04accountNumber: "number",
-		// FpreAditionalInformasi05Yes:           CheckBoxChekingBool(true, user.HasControllingStakeAccount),
-		// FpreAditionalInformasi05No:            CheckBoxChekingBool(false, user.HasControllingStakeAccount),
-		// FpreAditionalInformasi05CompanyName:   TmClientAddInfoControllingStakeAccountDetail(user.HasControllingStakeAccount, user.ControllingStakeAccountDetails, 0),
-		// FpreAditionalInformasi06Yes:           CheckBoxChekingBool(true, user.HasControllingStakeAccount),
-		// FpreAditionalInformasi06No:            CheckBoxChekingBool(false, user.HasControllingStakeAccount),
-		// FpreAditionalInformasi06CompanyName:   TmClientAddInfoControllingStakeAccountDetail(user.HasControllingStakeAccount, user.ControllingStakeAccountDetails, 0),
-		// FpreAditionalInformasi06Position:      "",
+		FpreAditionalInformasi05Yes:           "V",
+		FpreAditionalInformasi05No:            "V",
+		FpreAditionalInformasi05CompanyName:   "TWIS",
+		FpreAditionalInformasi06Yes:           "V",
+		FpreAditionalInformasi06No:            "V",
+		FpreAditionalInformasi06CompanyName:   "CODE",
+		FpreAditionalInformasi06Position:      "TWISC",
 		// FpreAditionalInformasi07Yes:           CheckBoxChekingBool(true, user.IsPeStakeholder),
 		// FpreAditionalInformasi07No:            CheckBoxChekingBool(false, user.IsPeStakeholder),
 		// FpreAditionalInformasi07CompanyName:   TmClientAddInfoPeStakeholderDetail(user.IsPeStakeholder, user.PeStakeholderDetails, 0),
