@@ -528,73 +528,73 @@ var (
 	// FpreAditionalInformasi06Position ...
 	FpreAditionalInformasi06Position = "380-130-2"
 	// FpreAditionalInformasi07Yes ...
-	FpreAditionalInformasi07Yes = "c116"
+	FpreAditionalInformasi07Yes = "531-144-2"
 	//FpreAditionalInformasi07No ...
-	FpreAditionalInformasi07No = "c117"
+	FpreAditionalInformasi07No = "557-144-2"
 	// FpreAditionalInformasi07CompanyName ...
-	FpreAditionalInformasi07CompanyName = "c118"
+	FpreAditionalInformasi07CompanyName = "403-164-2"
 	// FpreAditionalInformasi07Position ...
-	FpreAditionalInformasi07Position = "c119"
+	FpreAditionalInformasi07Position = "360-176-2"
 	// FpreAditionalInformasi07Saham ...
-	FpreAditionalInformasi07Saham = "d111"
+	FpreAditionalInformasi07Saham = "504-172-2"
 	// FpreAditionalInformasi08Yes ...
-	FpreAditionalInformasi08Yes = "d112"
+	FpreAditionalInformasi08Yes = "531-190-2"
 	//FpreAditionalInformasi08No ...
-	FpreAditionalInformasi08No = "d113"
+	FpreAditionalInformasi08No = "557-190-2"
 	// FpreAditionalInformasi08Position ...
-	FpreAditionalInformasi08Position = "d114"
+	FpreAditionalInformasi08Position = "360-214-2"
 	// FpreAditionalInformasi09Yes ...
-	FpreAditionalInformasi09Yes = "d115"
+	FpreAditionalInformasi09Yes = "531-234-2"
 	//FpreAditionalInformasi09No ...
-	FpreAditionalInformasi09No = "d116"
+	FpreAditionalInformasi09No = "557-234-2"
 	// FpreAditionalInformasi09Position ...
-	FpreAditionalInformasi09Position = "d117"
+	FpreAditionalInformasi09Position = "360-268-2"
 	// FpreAditionalInformasi10Yes ...
-	FpreAditionalInformasi10Yes = "d118"
+	FpreAditionalInformasi10Yes = "531-288-2"
 	//FpreAditionalInformasi10No ...
-	FpreAditionalInformasi10No = "d119"
+	FpreAditionalInformasi10No = "557-288-2"
 	// FpreAditionalInformasi10CompanyName ...
-	FpreAditionalInformasi10CompanyName = "e111"
+	FpreAditionalInformasi10CompanyName = "408-311-2"
 	// FpreAditionalInformasi11Yes ...
-	FpreAditionalInformasi11Yes = "e112"
+	FpreAditionalInformasi11Yes = "531-324-2"
 	//FpreAditionalInformasi11No ...
-	FpreAditionalInformasi11No = "e113"
+	FpreAditionalInformasi11No = "557-324-2"
 	//FpreAditionalInformasi11Other ...
-	FpreAditionalInformasi11Other = "e114"
+	FpreAditionalInformasi11Other = "531-341-2"
 	// FpreAditionalInformasi12Yes ...
-	FpreAditionalInformasi12Yes = "e115"
+	FpreAditionalInformasi12Yes = "531-406-2"
 	//FpreAditionalInformasi12No ...
-	FpreAditionalInformasi12No = "e116"
+	FpreAditionalInformasi12No = "557-406-2"
 	// FpreAditionalInformasi13Yes ...
-	FpreAditionalInformasi13Yes = "e117"
+	FpreAditionalInformasi13Yes = "531-440-2"
 	//FpreAditionalInformasi13No ...
-	FpreAditionalInformasi13No = "e118"
+	FpreAditionalInformasi13No = "557-440-2"
 	//FpreAditionalInformasi14Yes ...
-	FpreAditionalInformasi14Yes = "e119"
+	FpreAditionalInformasi14Yes = "360-516-2"
 	//FpreAditionalInformasi15Yes ...
-	FpreAditionalInformasi15Yes = "f111"
+	FpreAditionalInformasi15Yes = "360-575-2"
 	// FpreAditionalInformasi16Yes ...
-	FpreAditionalInformasi16Yes = "f112"
+	FpreAditionalInformasi16Yes = "531-599-2"
 	//FpreAditionalInformasi16No ...
-	FpreAditionalInformasi16No = "f113"
+	FpreAditionalInformasi16No = "557-599-2"
 	// FpreAditionalInformasi17Yes ...
-	FpreAditionalInformasi17Yes = "f114"
+	FpreAditionalInformasi17Yes = "531-683-2"
 	//FpreAditionalInformasi17No ...
-	FpreAditionalInformasi17No = "f115"
+	FpreAditionalInformasi17No = "557-683-2"
 	// FpreAditionalInformasi18Yes ...
-	FpreAditionalInformasi18Yes = "f116"
+	FpreAditionalInformasi18Yes = "20-76-3"
 	// FpreTujuanIvestasi01 ...
-	FpreTujuanIvestasi01 = "f117"
+	FpreTujuanIvestasi01 = "92-76-3"
 	// FpreTujuanIvestasi02 ...
-	FpreTujuanIvestasi02 = "f118"
+	FpreTujuanIvestasi02 = "155-77-3"
 	// FpreTujuanIvestasi03 ...
-	FpreTujuanIvestasi03 = "f119"
+	FpreTujuanIvestasi03 = "223-77-3"
 	// FpreTujuanIvestasi04 ...
-	FpreTujuanIvestasi04 = "g111"
+	FpreTujuanIvestasi04 = "20-107-3"
 	// FpreTujuanIvestasi05 ...
-	FpreTujuanIvestasi05 = "g112"
+	FpreTujuanIvestasi05 = "92-107-3"
 	// FpreTujuanIvestasi06 ...
-	FpreTujuanIvestasi06 = "g113"
+	FpreTujuanIvestasi06 = "453-650-3"
 )
 
 func main() {
@@ -856,40 +856,40 @@ func main() {
 		FpreAditionalInformasi06No:            "V",
 		FpreAditionalInformasi06CompanyName:   "CODE",
 		FpreAditionalInformasi06Position:      "TWISC",
-		// FpreAditionalInformasi07Yes:           CheckBoxChekingBool(true, user.IsPeStakeholder),
-		// FpreAditionalInformasi07No:            CheckBoxChekingBool(false, user.IsPeStakeholder),
-		// FpreAditionalInformasi07CompanyName:   TmClientAddInfoPeStakeholderDetail(user.IsPeStakeholder, user.PeStakeholderDetails, 0),
-		// FpreAditionalInformasi07Position:      TmClientAddInfoPeStakeholderDetail(user.IsPeStakeholder, user.PeStakeholderDetails, 1),
-		// FpreAditionalInformasi07Saham:         TmClientAddInfoPeStakeholderDetail(user.IsPeStakeholder, user.PeStakeholderDetails, 2),
-		// FpreAditionalInformasi08Yes:           CheckBoxChekingBool(true, user.HasPoliticallyExposedRelation),
-		// FpreAditionalInformasi08No:            CheckBoxChekingBool(false, user.HasPoliticallyExposedRelation),
-		// FpreAditionalInformasi08Position:      TmClientAddInfoPoliticallyExposedRelationDetail(user.HasPoliticallyExposedRelation, user.PoliticallyExposedRelationDetails, 0),
-		// FpreAditionalInformasi09Yes:           CheckBoxChekingBool(true, user.HasPoliticallyExposedRelation),
-		// FpreAditionalInformasi09No:            CheckBoxChekingBool(false, user.HasPoliticallyExposedRelation),
-		// FpreAditionalInformasi09Position:      TmClientAddInfoPoliticallyExposedRelationDetail(user.HasPoliticallyExposedRelation, user.PoliticallyExposedRelationDetails, 0),
-		// FpreAditionalInformasi10Yes:           CheckBoxChekingBool(true, user.HasRelationToEmmiten),
-		// FpreAditionalInformasi10No:            CheckBoxChekingBool(false, user.HasRelationToEmmiten),
-		// FpreAditionalInformasi10CompanyName:   TmClientAddInfoRelationToEmittenDetail(user.HasRelationToEmmiten, user.RelationToEmittenDetails, 0),
-		// FpreAditionalInformasi11Yes:           CheckBoxChekingBool(true, user.IsUsCitizen),
-		// FpreAditionalInformasi11No:            CheckBoxChekingBool(false, user.IsUsCitizen),
-		// FpreAditionalInformasi11Other:         "",
-		// FpreAditionalInformasi12Yes:           CheckBoxChekingBool(true, user.IsUsGreencardHolder),
-		// FpreAditionalInformasi12No:            CheckBoxChekingBool(false, user.IsUsGreencardHolder),
-		// FpreAditionalInformasi13Yes:           CheckBoxChekingBool(true, user.IsUsPermanentResidence),
-		// FpreAditionalInformasi13No:            CheckBoxChekingBool(false, user.IsUsPermanentResidence),
-		// FpreAditionalInformasi14Yes:           CheckBoxChekingBool(true, user.IsUsPermanentResidence),
-		// FpreAditionalInformasi15Yes:           CheckBoxChekingBool(false, user.IsUsPermanentResidence),
-		// FpreAditionalInformasi16Yes:           "",
-		// FpreAditionalInformasi10No:            "✓",
-		// FpreAditionalInformasi17Yes:           CheckBoxChekingBool(true, user.HasRelationToHighRiskCountry),
-		// FpreAditionalInformasi17No:            CheckBoxChekingBool(false, user.HasRelationToHighRiskCountry),
-		// FpreAditionalInformasi18Yes:           HighriskCountryList(user.RelationToHighRiskCountryDetails),
-		// FpreTujuanIvestasi01:                  CheckBoxChecking(user.InvestmentPurposeMappingName, "1"),
-		// FpreTujuanIvestasi02:                  CheckBoxChecking(user.InvestmentPurposeMappingName, "4"),
-		// FpreTujuanIvestasi03:                  CheckBoxChecking(user.InvestmentPurposeMappingName, "3"),
-		// FpreTujuanIvestasi04:                  CheckBoxChecking(user.InvestmentPurposeMappingName, "2"),
-		// FpreTujuanIvestasi05:                  CheckBoxChecking(user.InvestmentPurposeMappingName, "5"),
-		// FpreTujuanIvestasi06:                  user.InvestmentPurposeFreeText,
+		FpreAditionalInformasi07Yes:           "V",
+		FpreAditionalInformasi07No:            "V",
+		FpreAditionalInformasi07CompanyName:   "CODE",
+		FpreAditionalInformasi07Position:      "INFOR JABATAN",
+		FpreAditionalInformasi07Saham:         "100s",
+		FpreAditionalInformasi08Yes:           "V",
+		FpreAditionalInformasi08No:            "V",
+		FpreAditionalInformasi08Position:      "DAN LAIN LAIN",
+		FpreAditionalInformasi09Yes:           "V",
+		FpreAditionalInformasi09No:            "V",
+		FpreAditionalInformasi09Position:      "WANNA COME HOME",
+		FpreAditionalInformasi10Yes:           "V",
+		FpreAditionalInformasi10No:            "V",
+		FpreAditionalInformasi10CompanyName:   "SOMETIMES",
+		FpreAditionalInformasi11Yes:           "V",
+		FpreAditionalInformasi11No:            "V",
+		FpreAditionalInformasi11Other:         "V",
+		FpreAditionalInformasi12Yes:           "X",
+		FpreAditionalInformasi12No:            "X",
+		FpreAditionalInformasi13Yes:           "V",
+		FpreAditionalInformasi13No:            "V",
+		FpreAditionalInformasi14Yes:           "X",
+		FpreAditionalInformasi15Yes:           "Y",
+		FpreAditionalInformasi16Yes:           "A",
+		FpreAditionalInformasi16No:            "Z",
+		FpreAditionalInformasi17Yes:           "V",
+		FpreAditionalInformasi17No:            "V",
+		FpreAditionalInformasi18Yes:           "X",
+		FpreTujuanIvestasi01:                  "X",
+		FpreTujuanIvestasi02:                  "X",
+		FpreTujuanIvestasi03:                  "D",
+		FpreTujuanIvestasi04:                  "K",
+		FpreTujuanIvestasi05:                  "J",
+		FpreTujuanIvestasi06:                  "NAME",
 	}
 
 	err := AddTextToPdf(inputPath, outputPath, userData)
