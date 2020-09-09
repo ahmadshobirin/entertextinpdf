@@ -482,9 +482,9 @@ var (
 	// FpreRelationAditionalIncome ...
 	FpreRelationAditionalIncome = "24-543-2"
 	//FpreAditionalInformasi01Yes ...
-	FpreAditionalInformasi01Yes = "a111"
+	FpreAditionalInformasi01Yes = "233-575-2"
 	//FpreAditionalInformasi01No ...
-	FpreAditionalInformasi01No = "a112"
+	FpreAditionalInformasi01No = "243-575-2"
 	//FpreAditionalInformasi01FreeText ...
 	FpreAditionalInformasi01FreeText = "a113"
 	//FpreAditionalInformasi02Yes ...
@@ -833,8 +833,8 @@ func main() {
 		FpreRelationBusinessPhone:         "phone",
 		FpreRelationAmanualGross:          "1.450.000,00",
 		FpreRelationAditionalIncome:       "1.850.000,00",
-		// FpreAditionalInformasi01Yes:           CheckBoxChekingBool(true, user.HasRelationToFinancialInstitution),
-		// FpreAditionalInformasi01No:            CheckBoxChekingBool(false, user.HasRelationToFinancialInstitution),
+		FpreAditionalInformasi01Yes:       "V",
+		FpreAditionalInformasi01No:        "V",
 		// FpreAditionalInformasi01FreeText:      TmClientAddInfoRelationToFinancialInstitutionDetail(user.HasRelationToFinancialInstitution, user.RelationToFinancialInstitutionDetails, user.LineOfBusinessMappingName, user.RpLineOfBusinessMappingName, user.CompanyName, user.RpCompanyName),
 		// FpreAditionalInformasi02Yes:           CheckBoxChekingBool(true, user.HasRelationToMansek),
 		// FpreAditionalInformasi02No:            CheckBoxChekingBool(false, user.HasRelationToMansek),
