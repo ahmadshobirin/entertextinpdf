@@ -362,13 +362,13 @@ var (
 	// FprAditionalSourceIncome09 ...
 	FprAditionalSourceIncome09 = "312-590-1"
 	// FpreAditionalIncome ...
-	FpreAditionalIncome = "s009"
+	FpreAditionalIncome = "322-620-1"
 	// FpreMallingAddress01 ...
-	FpreMallingAddress01 = "v005"
+	FpreMallingAddress01 = "407-643-1"
 	// FpreMallingAddress02 ...
-	FpreMallingAddress02 = "v006"
+	FpreMallingAddress02 = "408-660-1"
 	// FpreMallingAddress03 ...
-	FpreMallingAddress03 = "v007"
+	FpreMallingAddress03 = "516-660-1"
 	// FpreRelationAccountName ...
 	FpreRelationAccountName = "t002"
 	// FpreRelationBankName ...
@@ -773,10 +773,10 @@ func main() {
 		FprAditionalSourceIncome07:        "V",
 		FprAditionalSourceIncome08:        "V",
 		FprAditionalSourceIncome09:        "V",
-		// FpreAditionalIncome:                   "",
-		// FpreMallingAddress01:                  CheckBoxChecking(strconv.Itoa(user.MailingAddressType), "1"),
-		// FpreMallingAddress02:                  CheckBoxChecking(strconv.Itoa(user.MailingAddressType), "3"),
-		// FpreMallingAddress03:                  CheckBoxChecking(strconv.Itoa(user.MailingAddressType), "2"),
+		FpreAditionalIncome:               "100.000,00",
+		FpreMallingAddress01:              "V",
+		FpreMallingAddress02:              "V",
+		FpreMallingAddress03:              "V",
 		// FpreRelationAccountName:               user.BaName,
 		// FpreRelationBankName:                  user.BankName,
 		// FpreRelationBranch:                    "",
