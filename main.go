@@ -934,6 +934,12 @@ func AddTextToPdf(inputPath, outputPath string, userData map[string]string) (err
 
 	c := creator.New()
 
+	//prepare-image
+	img, err := creator.NewImageFromFile("assets/Kacab.png")
+	if err != nil {
+		return err
+	}
+
 	// Load the pages.
 	for i := 0; i < numPages; i++ {
 		page, err := pdfReader.GetPage(i + 1)
@@ -951,12 +957,19 @@ func AddTextToPdf(inputPath, outputPath string, userData map[string]string) (err
 			if len(position) == 3 {
 				page, _ := strconv.Atoi(position[2])
 				if i == page || page == -1 {
-					p := creator.NewParagraph(value)
-					p.SetFont(fonts.NewFontTimesBold())
 					xPos, _ := strconv.ParseFloat(position[0], 64)
 					yPos, _ := strconv.ParseFloat(position[1], 64)
-					p.SetPos(xPos, yPos)
-					_ = c.Draw(p)
+
+					if value != "V" {
+						p := creator.NewParagraph(value)
+						p.SetFont(fonts.NewFontTimesBold())
+						p.SetPos(xPos, yPos)
+						_ = c.Draw(p)
+					} else {
+						img.ScaleToWidth(10)
+						img.SetPos(xPos, yPos)
+						_ = c.Draw(img)
+					}
 				}
 			}
 		}
