@@ -595,11 +595,20 @@ var (
 	FpreTujuanIvestasi05 = "92-107-3"
 	// FpreTujuanIvestasi06 ...
 	FpreTujuanIvestasi06 = "453-650-3"
+	// FprePernyataanName ...
+	FprePernyataanName = "117-129-11"
+	// FprePernyataanAddress ...
+	FprePernyataanAddress = "117-147-11"
+	// FprePernyataanNik ...
+	FprePernyataanNik = "117-183-11"
 )
 
 func main() {
-	inputPath := "fpre.pdf"
-	outputPath := "output.pdf"
+	// inputPath := "fpre.pdf"
+	// outputPath := "output.pdf"
+
+	inputPath := "fpre-syariah.pdf"
+	outputPath := "output-syariah.pdf"
 
 	userData := map[string]string{
 		FpreCode:                              "L8MSSNU2",
@@ -890,6 +899,10 @@ func main() {
 		FpreTujuanIvestasi04:                  "K",
 		FpreTujuanIvestasi05:                  "J",
 		FpreTujuanIvestasi06:                  "NAME",
+
+		FprePernyataanName:    "TEST",
+		FprePernyataanAddress: "SUBAY41, JL Uwuwuwuwu Awef Awef",
+		FprePernyataanNik:     "***34345",
 	}
 
 	err := AddTextToPdf(inputPath, outputPath, userData)
